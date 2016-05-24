@@ -1946,3 +1946,764 @@ Processing by LocpairsController#show as HTML
   [1m[36mLocpair Load (0.1ms)[0m  [1mSELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1[0m  [["id", 25]]
   Rendered locpairs/show.html.erb within layouts/application (351.8ms)
 Completed 200 OK in 375ms (Views: 374.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-24 12:27:15 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#new as HTML
+  Rendered locpairs/new.html.erb within layouts/application (19.9ms)
+Completed 200 OK in 1210ms (Views: 1070.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/locpairs" for 127.0.0.1 at 2016-05-24 12:27:22 -0500
+Processing by LocpairsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7r5SHRqZJe0K1WfkRNEP31CToW7tn8kM3w9o8Ch0quBYNluue1CuHGOpZtY+5eA21V6EPEcq6+pU8ACYDiQLsA==", "locpair"=>{"location1"=>"y3", "location2"=>"42"}, "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "locpairs" ("location1", "location2", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["location1", "y3"], ["location2", "42"], ["created_at", "2016-05-24 17:27:23.273086"], ["updated_at", "2016-05-24 17:27:23.273086"]]
+  [1m[35m (49.9ms)[0m  commit transaction
+Redirected to http://localhost:3000/locpairs/26
+Completed 302 Found in 386ms (ActiveRecord: 50.7ms)
+
+
+Started GET "/locpairs/26" for 127.0.0.1 at 2016-05-24 12:27:23 -0500
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"26"}
+  [1m[36mLocpair Load (0.2ms)[0m  [1mSELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1[0m  [["id", 26]]
+  Rendered locpairs/show.html.erb within layouts/application (896.7ms)
+Completed 200 OK in 999ms (Views: 945.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-24 12:40:41 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (1.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#new as HTML
+  Rendered locpairs/new.html.erb within layouts/application (26.8ms)
+Completed 200 OK in 527ms (Views: 499.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/locpairs" for 127.0.0.1 at 2016-05-24 12:40:47 -0500
+Processing by LocpairsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8UjHbce+sgMIfbgr964P4oC7PrCNHQP5LzzEU8TYzmJHwM7epnc58mEBuRmNmuALBXYb4ieoIR+kw6w74ohvMg==", "locpair"=>{"location1"=>"a", "location2"=>"b"}, "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "locpairs" ("location1", "location2", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["location1", "a"], ["location2", "b"], ["created_at", "2016-05-24 17:40:47.378494"], ["updated_at", "2016-05-24 17:40:47.378494"]]
+  [1m[35m (79.2ms)[0m  commit transaction
+Redirected to http://localhost:3000/locpairs/27
+Completed 302 Found in 182ms (ActiveRecord: 79.8ms)
+
+
+Started GET "/locpairs/27" for 127.0.0.1 at 2016-05-24 12:40:47 -0500
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mLocpair Load (0.2ms)[0m  [1mSELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1[0m  [["id", 27]]
+  Rendered locpairs/show.html.erb within layouts/application (754.6ms)
+Completed 200 OK in 910ms (Views: 852.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-24 13:03:38 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#new as HTML
+  Rendered locpairs/new.html.erb within layouts/application (30.1ms)
+Completed 200 OK in 750ms (Views: 716.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/locpairs" for 127.0.0.1 at 2016-05-24 13:03:43 -0500
+Processing by LocpairsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4irHA9JrBGiZBx3OLsUetn0x3UdQ9ASae3JS9LGPUQJUos6ws6KPmfB7HPxU8fFf+Pz4FfpBJnzwjTqcl9/wUg==", "locpair"=>{"location1"=>"uil", "location2"=>"ul"}, "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "locpairs" ("location1", "location2", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["location1", "uil"], ["location2", "ul"], ["created_at", "2016-05-24 18:03:43.963149"], ["updated_at", "2016-05-24 18:03:43.963149"]]
+  [1m[35m (53.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/locpairs/28
+Completed 302 Found in 157ms (ActiveRecord: 55.4ms)
+
+
+Started GET "/locpairs/28" for 127.0.0.1 at 2016-05-24 13:03:44 -0500
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[36mLocpair Load (0.2ms)[0m  [1mSELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1[0m  [["id", 28]]
+  Rendered locpairs/show.html.erb within layouts/application (785.7ms)
+Completed 200 OK in 925ms (Views: 839.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/locpairs/28" for 127.0.0.1 at 2016-05-24 13:06:15 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[35mLocpair Load (0.2ms)[0m  SELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1  [["id", 28]]
+  Rendered locpairs/show.html.erb within layouts/application (427.6ms)
+Completed 200 OK in 1076ms (Views: 975.4ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-24 13:06:16 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-05-24 13:06:16 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-05-24 13:06:16 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-05-24 13:06:16 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-05-24 13:06:16 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-05-24 13:06:16 -0500
+
+
+Started GET "/assets/locpairs.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-24 13:06:16 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-05-24 13:06:16 -0500
+
+
+Started GET "/assets/locpairs.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-05-24 13:06:16 -0500
+
+
+Started GET "/locpairs/28" for 127.0.0.1 at 2016-05-24 13:08:06 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[35mLocpair Load (0.2ms)[0m  SELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1  [["id", 28]]
+  Rendered locpairs/show.html.erb within layouts/application (422.0ms)
+Completed 200 OK in 975ms (Views: 914.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-24 13:08:07 -0500
+
+
+Started GET "/assets/locpairs.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-24 13:08:07 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-05-24 13:08:07 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-05-24 13:08:07 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-05-24 13:08:07 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-05-24 13:08:07 -0500
+
+
+Started GET "/assets/locpairs.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-05-24 13:08:07 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-05-24 13:08:07 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-05-24 13:08:07 -0500
+
+
+Started GET "/locpairs/28" for 127.0.0.1 at 2016-05-24 13:08:38 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[35mLocpair Load (0.2ms)[0m  SELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1  [["id", 28]]
+  Rendered locpairs/show.html.erb within layouts/application (678.3ms)
+Completed 200 OK in 1127ms (Views: 1087.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-24 13:08:39 -0500
+
+
+Started GET "/assets/locpairs.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-24 13:08:39 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-05-24 13:08:39 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-05-24 13:08:39 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-05-24 13:08:39 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-05-24 13:08:39 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-05-24 13:08:39 -0500
+
+
+Started GET "/assets/locpairs.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-05-24 13:08:39 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-05-24 13:08:39 -0500
+
+
+Started GET "/locpairs/28" for 127.0.0.1 at 2016-05-24 13:09:55 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[35mLocpair Load (0.2ms)[0m  SELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1  [["id", 28]]
+  Rendered locpairs/show.html.erb within layouts/application (697.3ms)
+Completed 200 OK in 1171ms (Views: 1119.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-24 13:09:57 -0500
+
+
+Started GET "/assets/locpairs.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-24 13:09:57 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-05-24 13:09:57 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-05-24 13:09:57 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-05-24 13:09:57 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-05-24 13:09:57 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-05-24 13:09:57 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-05-24 13:09:57 -0500
+
+
+Started GET "/assets/locpairs.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-05-24 13:09:57 -0500
+
+
+Started GET "/locpairs/28" for 127.0.0.1 at 2016-05-24 13:10:37 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[35mLocpair Load (0.2ms)[0m  SELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1  [["id", 28]]
+  Rendered locpairs/show.html.erb within layouts/application (710.5ms)
+Completed 200 OK in 1189ms (Views: 1131.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-24 13:10:39 -0500
+
+
+Started GET "/assets/locpairs.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-24 13:10:39 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-05-24 13:10:39 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-05-24 13:10:39 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-05-24 13:10:39 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-05-24 13:10:39 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-05-24 13:10:39 -0500
+
+
+Started GET "/assets/locpairs.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-05-24 13:10:39 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-05-24 13:10:39 -0500
+
+
+Started GET "/locpairs/28" for 127.0.0.1 at 2016-05-24 13:11:11 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[35mLocpair Load (0.1ms)[0m  SELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1  [["id", 28]]
+  Rendered locpairs/show.html.erb within layouts/application (715.1ms)
+Completed 200 OK in 1194ms (Views: 1151.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-24 13:11:12 -0500
+
+
+Started GET "/assets/locpairs.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-24 13:11:12 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-05-24 13:11:12 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-05-24 13:11:12 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-05-24 13:11:12 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-05-24 13:11:12 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-05-24 13:11:12 -0500
+
+
+Started GET "/assets/locpairs.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-05-24 13:11:12 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-05-24 13:11:12 -0500
+
+
+Started GET "/locpairs/28" for 127.0.0.1 at 2016-05-24 13:13:24 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[35mLocpair Load (0.2ms)[0m  SELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1  [["id", 28]]
+  Rendered locpairs/show.html.erb within layouts/application (696.6ms)
+Completed 200 OK in 1165ms (Views: 1110.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-24 13:13:26 -0500
+
+
+Started GET "/assets/locpairs.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-24 13:13:26 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-05-24 13:13:26 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-05-24 13:13:26 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-05-24 13:13:26 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-05-24 13:13:26 -0500
+
+
+Started GET "/assets/locpairs.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-05-24 13:13:26 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-05-24 13:13:26 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-05-24 13:13:26 -0500
+
+
+Started GET "/locpairs/28" for 127.0.0.1 at 2016-05-24 13:13:58 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[35mLocpair Load (0.2ms)[0m  SELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1  [["id", 28]]
+  Rendered locpairs/show.html.erb within layouts/application (439.6ms)
+Completed 200 OK in 1053ms (Views: 998.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-24 13:13:59 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-05-24 13:13:59 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-05-24 13:13:59 -0500
+
+
+Started GET "/assets/locpairs.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-24 13:13:59 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-05-24 13:13:59 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-05-24 13:13:59 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-05-24 13:13:59 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-05-24 13:13:59 -0500
+
+
+Started GET "/assets/locpairs.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-05-24 13:13:59 -0500
+
+
+Started GET "/locpairs/28" for 127.0.0.1 at 2016-05-24 13:14:40 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[35mLocpair Load (0.2ms)[0m  SELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1  [["id", 28]]
+  Rendered locpairs/show.html.erb within layouts/application (672.1ms)
+Completed 200 OK in 1065ms (Views: 1031.1ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-24 13:14:41 -0500
+
+
+Started GET "/assets/locpairs.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-24 13:14:41 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-05-24 13:14:41 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-05-24 13:14:41 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-05-24 13:14:41 -0500
+
+
+Started GET "/assets/locpairs.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-05-24 13:14:41 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-05-24 13:14:41 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-05-24 13:14:41 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-05-24 13:14:41 -0500
+
+
+Started GET "/locpairs/28" for 127.0.0.1 at 2016-05-24 13:17:27 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"28"}
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/xavier/Desktop/xavier-test2/xavier-test/app/models/locpair.rb:26: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/models/locpair.rb:26: syntax error, unexpected end-of-input, expecting keyword_end
+  app/controllers/locpairs_controller.rb:3:in `show'
+
+
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.5ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (55.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (115.1ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (182.4ms)
+
+
+Started GET "/locpairs/28" for 127.0.0.1 at 2016-05-24 13:17:56 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[35mLocpair Load (0.5ms)[0m  SELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1  [["id", 28]]
+  Rendered locpairs/show.html.erb within layouts/application (996.0ms)
+Completed 200 OK in 1469ms (Views: 1419.0ms | ActiveRecord: 5.7ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-24 13:17:58 -0500
+
+
+Started GET "/assets/locpairs.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-24 13:17:58 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-05-24 13:17:58 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-05-24 13:17:58 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-05-24 13:17:58 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-05-24 13:17:58 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-05-24 13:17:58 -0500
+
+
+Started GET "/assets/locpairs.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-05-24 13:17:58 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-05-24 13:17:58 -0500
+
+
+Started GET "/locpairs/28" for 127.0.0.1 at 2016-05-24 13:19:12 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[35mLocpair Load (0.1ms)[0m  SELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1  [["id", 28]]
+  Rendered locpairs/show.html.erb within layouts/application (708.7ms)
+Completed 500 Internal Server Error in 798ms (ActiveRecord: 0.4ms)
+
+ActionView::Template::Error (String can't be coerced into Fixnum):
+    3: 	<%= @locpair.location1 %>
+    4: 	to	
+    5: 	<%= @locpair.location2 %>
+    6:  	: <%= @locpair.duration %>
+    7: </p>
+  app/models/locpair.rb:24:in `+'
+  app/models/locpair.rb:24:in `duration'
+  app/views/locpairs/show.html.erb:6:in `_app_views_locpairs_show_html_erb__4580492847599650728_44368500'
+
+
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.5ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (35.9ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (5.1ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (32.9ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (81.7ms)
+
+
+Started GET "/locpairs/28" for 127.0.0.1 at 2016-05-24 13:20:36 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[35mLocpair Load (5.6ms)[0m  SELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1  [["id", 28]]
+  Rendered locpairs/show.html.erb within layouts/application (1015.2ms)
+Completed 200 OK in 1509ms (Views: 1465.8ms | ActiveRecord: 5.8ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-24 13:20:38 -0500
+
+
+Started GET "/assets/locpairs.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-24 13:20:38 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-05-24 13:20:38 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-05-24 13:20:38 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-05-24 13:20:38 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-05-24 13:20:38 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-05-24 13:20:38 -0500
+
+
+Started GET "/assets/locpairs.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-05-24 13:20:38 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-05-24 13:20:38 -0500
+
+
+Started GET "/locpairs/28" for 127.0.0.1 at 2016-05-24 13:22:44 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[35mLocpair Load (0.1ms)[0m  SELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1  [["id", 28]]
+  Rendered locpairs/show.html.erb within layouts/application (1217.2ms)
+Completed 200 OK in 1728ms (Views: 1680.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-24 13:22:46 -0500
+
+
+Started GET "/assets/locpairs.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-24 13:22:46 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-05-24 13:22:46 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-05-24 13:22:46 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-05-24 13:22:46 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-05-24 13:22:46 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-05-24 13:22:46 -0500
+
+
+Started GET "/assets/locpairs.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-05-24 13:22:46 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-05-24 13:22:46 -0500
+
+
+Started GET "/locpairs/28" for 127.0.0.1 at 2016-05-24 13:23:42 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[35mLocpair Load (0.3ms)[0m  SELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1  [["id", 28]]
+  Rendered locpairs/show.html.erb within layouts/application (932.2ms)
+Completed 200 OK in 1368ms (Views: 1302.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-24 13:23:43 -0500
+
+
+Started GET "/assets/locpairs.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-24 13:23:43 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-05-24 13:23:43 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-05-24 13:23:43 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-05-24 13:23:43 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-05-24 13:23:43 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-05-24 13:23:43 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-05-24 13:23:43 -0500
+
+
+Started GET "/assets/locpairs.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-05-24 13:23:43 -0500
+
+
+Started GET "/locpairs/28" for 127.0.0.1 at 2016-05-24 13:25:21 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[35mLocpair Load (0.2ms)[0m  SELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1  [["id", 28]]
+  Rendered locpairs/show.html.erb within layouts/application (997.7ms)
+Completed 200 OK in 1419ms (Views: 1343.1ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-24 13:25:22 -0500
+
+
+Started GET "/assets/locpairs.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-24 13:25:22 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-05-24 13:25:22 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-05-24 13:25:22 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-05-24 13:25:23 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-05-24 13:25:23 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-05-24 13:25:23 -0500
+
+
+Started GET "/assets/locpairs.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-05-24 13:25:23 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-05-24 13:25:23 -0500
+
+
+Started GET "/locpairs/28" for 127.0.0.1 at 2016-05-24 13:28:21 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[35mLocpair Load (0.2ms)[0m  SELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1  [["id", 28]]
+  Rendered locpairs/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 478ms (Views: 433.6ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/locpairs/28" for 127.0.0.1 at 2016-05-24 13:29:16 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[35mLocpair Load (0.2ms)[0m  SELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1  [["id", 28]]
+  Rendered locpairs/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 446ms (Views: 420.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-24 13:29:17 -0500
+
+
+Started GET "/assets/locpairs.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-24 13:29:17 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-05-24 13:29:17 -0500
+
+
+Started GET "/assets/locpairs.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-05-24 13:29:17 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-05-24 13:29:17 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-05-24 13:29:17 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-05-24 13:29:17 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-05-24 13:29:17 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-05-24 13:29:17 -0500
+
+
+Started GET "/locpairs/28" for 127.0.0.1 at 2016-05-24 13:29:59 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[35mLocpair Load (0.2ms)[0m  SELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1  [["id", 28]]
+  Rendered locpairs/show.html.erb within layouts/application (986.9ms)
+Completed 200 OK in 1458ms (Views: 1407.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-24 13:30:01 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-05-24 13:30:01 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-05-24 13:30:01 -0500
+
+
+Started GET "/assets/locpairs.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-24 13:30:01 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-05-24 13:30:01 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-05-24 13:30:01 -0500
+
+
+Started GET "/assets/locpairs.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-05-24 13:30:01 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-05-24 13:30:01 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-05-24 13:30:01 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-24 13:30:41 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#new as HTML
+  Rendered locpairs/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 475ms (Views: 455.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/locpairs" for 127.0.0.1 at 2016-05-24 13:30:47 -0500
+Processing by LocpairsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nDVcaqyjy59Sp5dNboqn8gwhytOaoR8nftylk4UFiLoqvVXZzWpAbjvbln8UvkgbiezvgTAUPcH1I837o1Up6g==", "locpair"=>{"location1"=>"DFW", "location2"=>"LGA"}, "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "locpairs" ("location1", "location2", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["location1", "DFW"], ["location2", "LGA"], ["created_at", "2016-05-24 18:30:47.063618"], ["updated_at", "2016-05-24 18:30:47.063618"]]
+  [1m[35m (7.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/locpairs/29
+Completed 302 Found in 50ms (ActiveRecord: 13.0ms)
+
+
+Started GET "/locpairs/29" for 127.0.0.1 at 2016-05-24 13:30:47 -0500
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"29"}
+  [1m[36mLocpair Load (0.2ms)[0m  [1mSELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1[0m  [["id", 29]]
+  Rendered locpairs/show.html.erb within layouts/application (2620.7ms)
+Completed 200 OK in 2677ms (Views: 2661.6ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/locpairs" for 127.0.0.1 at 2016-05-24 13:31:11 -0500
+Processing by LocpairsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nDVcaqyjy59Sp5dNboqn8gwhytOaoR8nftylk4UFiLoqvVXZzWpAbjvbln8UvkgbiezvgTAUPcH1I837o1Up6g==", "locpair"=>{"location1"=>"Lincoln, Nebraska", "location2"=>"College Station"}, "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "locpairs" ("location1", "location2", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["location1", "Lincoln, Nebraska"], ["location2", "College Station"], ["created_at", "2016-05-24 18:31:11.190698"], ["updated_at", "2016-05-24 18:31:11.190698"]]
+  [1m[35m (396.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/locpairs/30
+Completed 302 Found in 405ms (ActiveRecord: 397.7ms)
+
+
+Started GET "/locpairs/30" for 127.0.0.1 at 2016-05-24 13:31:11 -0500
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"30"}
+  [1m[36mLocpair Load (0.1ms)[0m  [1mSELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1[0m  [["id", 30]]
+  Rendered locpairs/show.html.erb within layouts/application (4400.9ms)
+Completed 200 OK in 4467ms (Views: 4462.3ms | ActiveRecord: 0.1ms)
