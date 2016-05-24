@@ -1,0 +1,15 @@
+<h1>Enter locations:</h1>
+
+<%= form_for :locpair, url: locpairs_path do |f| %>
+	<p>
+		<%= f.text_field :location1 %>
+	</p>
+
+	<p>
+		<%= f.text_field :location2 %>
+	</p>
+
+	<p>
+		<%= f.submit "Submit" %>
+	</p>
+<% end %>

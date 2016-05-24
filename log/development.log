@@ -1,0 +1,1948 @@
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-16 13:17:06 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/railties-4.2.6/lib/rails/templates/rails/welcome/index.html.erb (4.1ms)
+Completed 200 OK in 91ms (Views: 67.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-16 13:44:08 -0500
+Processing by HomeController#locations as HTML
+  Rendered home/locations.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 3359ms (Views: 3324.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-16 13:44:12 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-05-16 13:44:12 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-16 14:00:19 -0500
+Processing by HomeController#locations as HTML
+  Rendered home/locations.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 1027ms (Views: 1012.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/locpairs.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-16 14:00:20 -0500
+
+
+Started GET "/assets/locpairs.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-05-16 14:00:20 -0500
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2016-05-16 14:00:41 -0500
+
+ActionController::RoutingError (No route matches [GET] "/articles/new"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/xavier/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/xavier/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/xavier/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (27.6ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (29.7ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (127.8ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (220.8ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (262.4ms)
+
+
+Started GET "/locpairs/new" for 127.0.0.1 at 2016-05-16 14:00:57 -0500
+
+ActionController::RoutingError (No route matches [GET] "/locpairs/new"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/xavier/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/xavier/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/xavier/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (9.6ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (68.7ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (96.7ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.9ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (3.5ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (179.0ms)
+
+
+Started GET "/locpairs/new" for 127.0.0.1 at 2016-05-16 14:05:22 -0500
+
+ActionController::RoutingError (No route matches [GET] "/locpairs/new"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/xavier/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/xavier/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/xavier/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (17.6ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (41.6ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (116.6ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (2.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (56.5ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (73.5ms)
+
+
+Started GET "/locpairs/new" for 127.0.0.1 at 2016-05-16 14:09:59 -0500
+Processing by LocpairsController#new as HTML
+  Rendered locpairs/new.html.erb within layouts/application (47.9ms)
+Completed 500 Internal Server Error in 104ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `fomr_for' for #<#<Class:0x00000003c6ab58>:0x00000003c5c288>
+Did you mean?  form_for):
+    1: <h1>Enter locations:</h1>
+    2: 
+    3: <%= fomr_for :locpair do |f| %>
+    4: 	<p>
+    5: 		<%= f.text_field :location1 %>
+    6: 	</p>
+  app/views/locpairs/new.html.erb:3:in `_app_views_locpairs_new_html_erb__1340308406901610263_31442340'
+
+
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (9.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (71.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (91.8ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (128.4ms)
+
+
+Started GET "/locpairs/new" for 127.0.0.1 at 2016-05-16 14:11:03 -0500
+Processing by LocpairsController#new as HTML
+  Rendered locpairs/new.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 562ms (Views: 522.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-16 14:11:04 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-05-16 14:11:04 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-05-16 14:11:04 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-05-16 14:11:04 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-05-16 14:11:05 -0500
+
+
+Started GET "/assets/locpairs.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-16 14:11:05 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-05-16 14:11:05 -0500
+
+
+Started GET "/assets/locpairs.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-05-16 14:11:05 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-05-16 14:11:05 -0500
+
+
+Started POST "/locpairs/new" for 127.0.0.1 at 2016-05-16 14:11:20 -0500
+
+ActionController::RoutingError (No route matches [POST] "/locpairs/new"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/xavier/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/xavier/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/xavier/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (48.9ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (10.1ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (145.1ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (36.6ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (129.2ms)
+
+
+Started GET "/locpairs/new" for 127.0.0.1 at 2016-05-16 14:12:58 -0500
+Processing by LocpairsController#new as HTML
+  Rendered locpairs/new.html.erb within layouts/application (47.5ms)
+Completed 200 OK in 592ms (Views: 578.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/locpairs/new" for 127.0.0.1 at 2016-05-16 14:14:48 -0500
+Processing by LocpairsController#new as HTML
+  Rendered locpairs/new.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 518ms (Views: 510.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-16 14:14:49 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-05-16 14:14:49 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-05-16 14:14:49 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-05-16 14:14:49 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-05-16 14:14:49 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-05-16 14:14:49 -0500
+
+
+Started GET "/assets/locpairs.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-16 14:14:49 -0500
+
+
+Started GET "/assets/locpairs.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-05-16 14:14:49 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-05-16 14:14:49 -0500
+
+
+Started POST "/locpairs/new" for 127.0.0.1 at 2016-05-16 14:14:53 -0500
+
+ActionController::RoutingError (No route matches [POST] "/locpairs/new"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/xavier/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/xavier/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/xavier/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.9ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (21.6ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (6.0ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (95.1ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (63.2ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (5.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (4.8ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (112.1ms)
+
+
+Started POST "/locpairs/new" for 127.0.0.1 at 2016-05-16 14:16:46 -0500
+
+ActionController::RoutingError (No route matches [POST] "/locpairs/new"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/xavier/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/xavier/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/xavier/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (22.5ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (28.7ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (144.6ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (4.2ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (39.5ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (4.7ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (100.1ms)
+
+
+Started GET "/locpairs/new" for 127.0.0.1 at 2016-05-16 14:16:53 -0500
+Processing by LocpairsController#new as HTML
+  Rendered locpairs/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 585ms (Views: 584.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/locpairs" for 127.0.0.1 at 2016-05-16 14:16:56 -0500
+Processing by LocpairsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qSB+I7XdyIf3VG8U5gh+rOh2N7vBrpVN3lqunKDzU+lYtrKgoqLS+FltXCtMxtoBkGyWA/ttQKBZ0zKIzQ1i/Q==", "locpair"=>{"location1"=>"f", "location2"=>"a"}, "commit"=>"Submit"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/locpairs" for 127.0.0.1 at 2016-05-16 14:23:58 -0500
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.6) lib/active_record/migration.rb:392:in `check_pending!'
+  activerecord (4.2.6) lib/active_record/migration.rb:373:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/xavier/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/xavier/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/xavier/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.8ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (34.9ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.9ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (39.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (84.7ms)
+  [1m[36m (21.2ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (3.2ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/locpairs" for 127.0.0.1 at 2016-05-16 14:25:07 -0500
+
+AbstractController::ActionNotFound (The action 'index' could not be found for LocpairsController):
+  actionpack (4.2.6) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.6) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.6) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.6) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/xavier/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/xavier/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/xavier/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (1.0ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (45.2ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (83.6ms)
+
+
+Started GET "/locpairs" for 127.0.0.1 at 2016-05-16 14:25:11 -0500
+
+AbstractController::ActionNotFound (The action 'index' could not be found for LocpairsController):
+  actionpack (4.2.6) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.6) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.6) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.6) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/xavier/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/xavier/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/xavier/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (33.0ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (51.5ms)
+
+
+Started GET "/locpairs/new" for 127.0.0.1 at 2016-05-16 14:25:46 -0500
+Processing by LocpairsController#new as HTML
+  Rendered locpairs/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 617ms (Views: 599.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/locpairs" for 127.0.0.1 at 2016-05-16 14:25:51 -0500
+Processing by LocpairsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"04KS7LZzx0uvFPeWSnCSYI5s/rXUK3TgbgqDUHaTB0MiFF5voQzdNAEtxKngvjbN9nZfDe7ooQ3pgx9EG202Vw==", "locpair"=>{"location1"=>"f", "location2"=>"a"}, "commit"=>"Submit"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/locpairs/new" for 127.0.0.1 at 2016-05-16 14:43:52 -0500
+Processing by LocpairsController#new as HTML
+  Rendered locpairs/new.html.erb within layouts/application (20.5ms)
+Completed 200 OK in 460ms (Views: 441.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/locpairs" for 127.0.0.1 at 2016-05-16 14:43:56 -0500
+Processing by LocpairsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fBUHlLbXbhKKOzEC01L+7YMWhrnVzMTXNs0zlqgLh4KNg8sXoah0bSQCAj15nFpA+wwnAe8PETqxRK+CxfW2lg==", "locpair"=>{"location1"=>"f", "location2"=>"a"}, "commit"=>"Submit"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/locpairs/new" for 127.0.0.1 at 2016-05-16 14:45:40 -0500
+Processing by LocpairsController#new as HTML
+  Rendered locpairs/new.html.erb within layouts/application (19.4ms)
+Completed 200 OK in 446ms (Views: 433.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/locpairs" for 127.0.0.1 at 2016-05-16 14:45:43 -0500
+Processing by LocpairsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PYJz3etJenQ5BLulSYY3PveN9oILG1YjsZ4cVhMsgF3MFL9e/DZgC5c9iJrjSJOTj5dXOjHYg842F4BCftKxSQ==", "locpair"=>{"location1"=>"f", "location2"=>"a"}, "commit"=>"Submit"}
+Completed 500 Internal Server Error in 49ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `locpairs' for #<LocpairsController:0x007fbe318c1d00>
+Did you mean?  locpairs_url):
+  app/controllers/locpairs_controller.rb:10:in `create'
+
+
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.7ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (12.1ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (56.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (34.6ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (8.7ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (64.1ms)
+
+
+Started GET "/locpairs/new" for 127.0.0.1 at 2016-05-16 14:48:34 -0500
+Processing by LocpairsController#new as HTML
+  Rendered locpairs/new.html.erb within layouts/application (19.2ms)
+Completed 200 OK in 463ms (Views: 456.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/locpairs" for 127.0.0.1 at 2016-05-16 14:48:38 -0500
+Processing by LocpairsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"h4B/I9mQ2crAFNeRibRkWn77PXAk8vsTf360lrC5zkJ2FrOgzu/DtW4t5K4jesD3BuGcyB4xLv749yiC3Uf/Vg==", "locpair"=>{"location1"=>"f", "location2"=>"a"}, "commit"=>"Submit"}
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+ActionView::MissingTemplate (Missing template locpairs/locpair, application/locpair with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/xavier/Desktop/xavier-test/xavier-test/app/views"
+):
+  app/controllers/locpairs_controller.rb:10:in `create'
+
+
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.8ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (51.7ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (34.7ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (113.4ms)
+
+
+Started GET "/locpairs/new" for 127.0.0.1 at 2016-05-16 14:51:23 -0500
+Processing by LocpairsController#new as HTML
+  Rendered locpairs/new.html.erb within layouts/application (16.3ms)
+Completed 200 OK in 411ms (Views: 397.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/locpairs" for 127.0.0.1 at 2016-05-16 14:51:26 -0500
+Processing by LocpairsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"c3UYYu6erBhh55psGeiSOuUlLlv4W49DfR0/cnISMhiC49Th+eG2Z8/eqVOzJjaXnT+P48KYWq76lKNmH+wDDA==", "locpair"=>{"location1"=>"f", "location2"=>"a"}, "commit"=>"Submit"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateLocpairs (20160516195150)
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "locpairs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "location1" varchar, "location2" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20160516195150"]]
+  [1m[36m (30.3ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/locpairs/new" for 127.0.0.1 at 2016-05-16 14:56:49 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#new as HTML
+  Rendered locpairs/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 690ms (Views: 682.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/locpairs" for 127.0.0.1 at 2016-05-16 14:56:52 -0500
+Processing by LocpairsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qH44n4LybDYWj/Vanl+Kv3hq8NHiqDQ6CliMwxbTLKtZ6PQclY12Sbi2xmU0kS4SAHBRadhr4deN0RDXey0dvw==", "locpair"=>{"location1"=>"f", "location2"=>"a"}, "commit"=>"Submit"}
+Completed 500 Internal Server Error in 60ms (ActiveRecord: 0.3ms)
+
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  app/controllers/locpairs_controller.rb:10:in `create'
+
+
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.1ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.8ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (63.2ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (111.0ms)
+
+
+Started GET "/locpairs/new" for 127.0.0.1 at 2016-05-16 14:59:31 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#new as HTML
+  Rendered locpairs/new.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 656ms (Views: 639.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/locpairs" for 127.0.0.1 at 2016-05-16 14:59:35 -0500
+Processing by LocpairsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HAgLmahDvOskqXKb/7EXWsjAoDMAH23USrACwckj3ZXtnscavzymlIqQQaRVf7P3sNoBizrcuDnNOZ7VpN3sgQ==", "locpair"=>{"location1"=>"f", "location2"=>"a"}, "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (17.3ms)[0m  [1mINSERT INTO "locpairs" ("location1", "location2", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["location1", "f"], ["location2", "a"], ["created_at", "2016-05-16 19:59:35.453915"], ["updated_at", "2016-05-16 19:59:35.453915"]]
+  [1m[35m (10.3ms)[0m  commit transaction
+Redirected to http://localhost:3000/locpairs/1
+Completed 302 Found in 114ms (ActiveRecord: 28.0ms)
+
+
+Started GET "/locpairs/1" for 127.0.0.1 at 2016-05-16 14:59:35 -0500
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered locpairs/show.html.erb within layouts/application (5.1ms)
+Completed 500 Internal Server Error in 52ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `location1' for nil:NilClass):
+    1: <p>
+    2: 	The distance between 
+    3: 	<%= @locpair.location1 %>
+    4: 	and
+    5: 	<%= @locpair.location2 %>
+    6: 	is _
+  app/views/locpairs/show.html.erb:3:in `_app_views_locpairs_show_html_erb___2094184624541402323_69912320195340'
+
+
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (60.5ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (38.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (137.6ms)
+
+
+Started GET "/locpairs/new" for 127.0.0.1 at 2016-05-16 15:01:02 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#new as HTML
+  Rendered locpairs/new.html.erb within layouts/application (16.6ms)
+Completed 200 OK in 612ms (Views: 599.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/locpairs" for 127.0.0.1 at 2016-05-16 15:01:07 -0500
+Processing by LocpairsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SYrnj/uEC0oMW22ICWNYk+id28ZNnRwFK7VHQU56cKO4HCsM7PsRNaJiXrejrfw+kId6fndeyeisPNtVI4RBtw==", "locpair"=>{"location1"=>"f", "location2"=>"a"}, "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "locpairs" ("location1", "location2", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["location1", "f"], ["location2", "a"], ["created_at", "2016-05-16 20:01:07.610534"], ["updated_at", "2016-05-16 20:01:07.610534"]]
+  [1m[35m (119.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/locpairs/2
+Completed 302 Found in 145ms (ActiveRecord: 119.8ms)
+
+
+Started GET "/locpairs/2" for 127.0.0.1 at 2016-05-16 15:01:07 -0500
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mLocpair Load (0.2ms)[0m  [1mSELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered locpairs/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 126ms (Views: 57.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/locpairs/new" for 127.0.0.1 at 2016-05-16 15:03:21 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#new as HTML
+  Rendered locpairs/new.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 596ms (Views: 578.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/locpairs" for 127.0.0.1 at 2016-05-16 15:03:30 -0500
+Processing by LocpairsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BciqTUvafaWe8oHjiFbmfeqJgPffYOyXS1y8iDey26j0XmbOXKVn2jDLstwimELQkpMhT+WjOXrM1SCcWkzqvA==", "locpair"=>{"location1"=>"Dallas", "location2"=>"Houston"}, "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "locpairs" ("location1", "location2", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["location1", "Dallas"], ["location2", "Houston"], ["created_at", "2016-05-16 20:03:30.674392"], ["updated_at", "2016-05-16 20:03:30.674392"]]
+  [1m[35m (16.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/locpairs/3
+Completed 302 Found in 39ms (ActiveRecord: 17.5ms)
+
+
+Started GET "/locpairs/3" for 127.0.0.1 at 2016-05-16 15:03:30 -0500
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mLocpair Load (10.2ms)[0m  [1mSELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered locpairs/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 53ms (Views: 24.6ms | ActiveRecord: 10.2ms)
+
+
+Started GET "/locpairs/new" for 127.0.0.1 at 2016-05-16 15:04:10 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#new as HTML
+  Rendered locpairs/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 666ms (Views: 636.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/locpairs" for 127.0.0.1 at 2016-05-16 15:04:17 -0500
+Processing by LocpairsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WyvjcpAxvoBD08IhRn74Jv9R/wxNZ7yUTZ8k+PXYsOOqvS/xh06k/+3q8R7ssFyLh0tetHekaXnKFrjsmCaB9w==", "locpair"=>{"location1"=>"Dallas", "location2"=>"Houston"}, "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "locpairs" ("location1", "location2", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["location1", "Dallas"], ["location2", "Houston"], ["created_at", "2016-05-16 20:04:17.229863"], ["updated_at", "2016-05-16 20:04:17.229863"]]
+  [1m[35m (57.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/locpairs/4
+Completed 302 Found in 77ms (ActiveRecord: 58.2ms)
+
+
+Started GET "/locpairs/4" for 127.0.0.1 at 2016-05-16 15:04:17 -0500
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mLocpair Load (0.3ms)[0m  [1mSELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered locpairs/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 37ms (Views: 23.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-16 19:26:06 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#new as HTML
+  Rendered locpairs/new.html.erb within layouts/application (46.4ms)
+Completed 200 OK in 1023ms (Views: 964.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/locpairs" for 127.0.0.1 at 2016-05-16 19:26:11 -0500
+Processing by LocpairsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"n4XGHPZoJS0586bAdPY0EYXQMyQMaSNRuqqedALorPtuEwqf4Rc/UpfKlf/eOJC8/cqSnDaq9rw9IwJgbxad7w==", "locpair"=>{"location1"=>"f", "location2"=>"a"}, "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "locpairs" ("location1", "location2", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["location1", "f"], ["location2", "a"], ["created_at", "2016-05-17 00:26:12.012801"], ["updated_at", "2016-05-17 00:26:12.012801"]]
+  [1m[35m (12.2ms)[0m  commit transaction
+Redirected to http://localhost:3000/locpairs/5
+Completed 302 Found in 118ms (ActiveRecord: 13.1ms)
+
+
+Started GET "/locpairs/5" for 127.0.0.1 at 2016-05-16 19:26:12 -0500
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mLocpair Load (0.2ms)[0m  [1mSELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered locpairs/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 102ms (Views: 29.2ms | ActiveRecord: 0.2ms)
+  [1m[36m (64.8ms)[0m  [1mCREATE TABLE "locpairs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "location1" varchar, "location2" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (3.9ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (5.4ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (9.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160516195150')
+  [1m[36m (5.4ms)[0m  [1mCREATE TABLE "locpairs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "location1" varchar, "location2" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (13.1ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (37.5ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (8.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160516195150')
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-20 12:18:14 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#new as HTML
+  Rendered locpairs/new.html.erb within layouts/application (45.0ms)
+Completed 200 OK in 1545ms (Views: 1350.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/locpairs" for 127.0.0.1 at 2016-05-20 12:18:21 -0500
+Processing by LocpairsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"I0i2AHB4X1hLxE9sxmoUDGqaeeFLKygH+e/aat4RUAJdsdH/gwZ9rN04P4ufJB1KzxoBUqueXVPy81O9Xr3WZA==", "locpair"=>{"location1"=>"g", "location2"=>"a"}, "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "locpairs" ("location1", "location2", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["location1", "g"], ["location2", "a"], ["created_at", "2016-05-20 17:18:21.284958"], ["updated_at", "2016-05-20 17:18:21.284958"]]
+  [1m[35m (85.3ms)[0m  commit transaction
+Redirected to http://localhost:3000/locpairs/1
+Completed 302 Found in 232ms (ActiveRecord: 86.0ms)
+
+
+Started GET "/locpairs/1" for 127.0.0.1 at 2016-05-20 12:18:21 -0500
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mLocpair Load (0.2ms)[0m  [1mSELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered locpairs/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 173ms (Views: 49.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-23 14:26:54 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#new as HTML
+  Rendered locpairs/new.html.erb within layouts/application (24.0ms)
+Completed 200 OK in 890ms (Views: 787.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/locpairs" for 127.0.0.1 at 2016-05-23 14:27:01 -0500
+Processing by LocpairsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dCkgft04dJZ70S0ZbzlLTqadJPLeBAxOThOKaXolnDhg3kQrnDpXgi39csodNS9bcMJeLjw5aRYv3BBVMaHveQ==", "locpair"=>{"location1"=>"g", "location2"=>"h"}, "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "locpairs" ("location1", "location2", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["location1", "g"], ["location2", "h"], ["created_at", "2016-05-23 19:27:01.728689"], ["updated_at", "2016-05-23 19:27:01.728689"]]
+  [1m[35m (14.9ms)[0m  commit transaction
+Redirected to http://localhost:3000/locpairs/2
+Completed 302 Found in 191ms (ActiveRecord: 15.7ms)
+
+
+Started GET "/locpairs/2" for 127.0.0.1 at 2016-05-23 14:27:01 -0500
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mLocpair Load (0.2ms)[0m  [1mSELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered locpairs/show.html.erb within layouts/application (58.6ms)
+Completed 500 Internal Server Error in 133ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (undefined method `tag' for #<Locpair:0x007fac38eeaa20>
+Did you mean?  tap):
+    3: 	<%= @locpair.location1 %>
+    4: 	to	
+    5: 	<%= @locpair.location2 %>
+    6:  	: ______ <%= @locpair.tag %>
+    7: </p>
+  app/views/locpairs/show.html.erb:6:in `_app_views_locpairs_show_html_erb___1629630834214284438_70188833060280'
+
+
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (15.7ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (50.1ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (103.0ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (159.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-23 14:29:24 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#new as HTML
+  Rendered locpairs/new.html.erb within layouts/application (29.1ms)
+Completed 200 OK in 598ms (Views: 578.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/locpairs" for 127.0.0.1 at 2016-05-23 14:29:30 -0500
+Processing by LocpairsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MmpW9PeAw2UTt/LmSmHBbj+VMIQuFKhU1vKz89lxRA4mnTKhtoLgcUWbrTU4baV76cpKWMwpzQy3PSnPkvU3Tw==", "locpair"=>{"location1"=>"gv", "location2"=>"h"}, "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "locpairs" ("location1", "location2", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["location1", "gv"], ["location2", "h"], ["created_at", "2016-05-23 19:29:30.804023"], ["updated_at", "2016-05-23 19:29:30.804023"]]
+  [1m[35m (8.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/locpairs/3
+Completed 302 Found in 34ms (ActiveRecord: 9.2ms)
+
+
+Started GET "/locpairs/3" for 127.0.0.1 at 2016-05-23 14:29:30 -0500
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mLocpair Load (0.2ms)[0m  [1mSELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered locpairs/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 40ms (Views: 25.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-23 14:42:39 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#new as HTML
+  Rendered locpairs/new.html.erb within layouts/application (43.7ms)
+Completed 200 OK in 761ms (Views: 725.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/locpairs" for 127.0.0.1 at 2016-05-23 14:42:46 -0500
+Processing by LocpairsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GdkHHmktGx8loWbW8J0LpN+zrONyHEzeZD16K1VKeiENLmNLKC84C3ONOQWCkW+xCezWP5AhKYYF8uAXHs4JYA==", "locpair"=>{"location1"=>"u", "location2"=>"q"}, "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "locpairs" ("location1", "location2", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["location1", "u"], ["location2", "q"], ["created_at", "2016-05-23 19:42:47.437641"], ["updated_at", "2016-05-23 19:42:47.437641"]]
+  [1m[35m (22.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/locpairs/4
+Completed 302 Found in 756ms (ActiveRecord: 23.5ms)
+
+
+Started GET "/locpairs/4" for 127.0.0.1 at 2016-05-23 14:42:47 -0500
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mLocpair Load (0.2ms)[0m  [1mSELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered locpairs/show.html.erb within layouts/application (69.3ms)
+Completed 500 Internal Server Error in 112ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (undefined local variable or method `directions_hash' for #<Locpair:0x0000000553ce38>):
+    3: 	<%= @locpair.location1 %>
+    4: 	to	
+    5: 	<%= @locpair.location2 %>
+    6:  	: ______ <%= @locpair.keys %>
+    7: </p>
+  app/models/locpair.rb:7:in `keys'
+  app/views/locpairs/show.html.erb:6:in `_app_views_locpairs_show_html_erb__3077086680613912159_44622340'
+
+
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (55.1ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (120.0ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (182.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-23 14:45:41 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#new as HTML
+  Rendered locpairs/new.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 402ms (Views: 380.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/locpairs" for 127.0.0.1 at 2016-05-23 14:45:46 -0500
+Processing by LocpairsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ll5YifQfOB8banokkhH1uWc0ZYNsEWJrixj7miWb3ACCqTzctR0bC01GJffgHZGssWsfX44sBzPq12Gmbh+vQQ==", "locpair"=>{"location1"=>"l", "location2"=>"ll"}, "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (3.4ms)[0m  [1mINSERT INTO "locpairs" ("location1", "location2", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["location1", "l"], ["location2", "ll"], ["created_at", "2016-05-23 19:45:46.556922"], ["updated_at", "2016-05-23 19:45:46.556922"]]
+  [1m[35m (116.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/locpairs/5
+Completed 302 Found in 161ms (ActiveRecord: 124.4ms)
+
+
+Started GET "/locpairs/5" for 127.0.0.1 at 2016-05-23 14:45:46 -0500
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mLocpair Load (2.2ms)[0m  [1mSELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered locpairs/show.html.erb within layouts/application (343.0ms)
+Completed 200 OK in 407ms (Views: 390.8ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-23 14:48:55 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#new as HTML
+  Rendered locpairs/new.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 394ms (Views: 373.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/locpairs" for 127.0.0.1 at 2016-05-23 14:48:59 -0500
+Processing by LocpairsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wjcs4lrJWBkrVFvBUDVL6IeYi3jfY4ruxTl3m5voEPnWwEi3G8t7DX14BBIiOS/9UcfxpD1e77ak9u2n0GxjuA==", "locpair"=>{"location1"=>"g", "location2"=>"g2"}, "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "locpairs" ("location1", "location2", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["location1", "g"], ["location2", "g2"], ["created_at", "2016-05-23 19:48:59.256055"], ["updated_at", "2016-05-23 19:48:59.256055"]]
+  [1m[35m (75.4ms)[0m  commit transaction
+Redirected to http://localhost:3000/locpairs/6
+Completed 302 Found in 114ms (ActiveRecord: 76.1ms)
+
+
+Started GET "/locpairs/6" for 127.0.0.1 at 2016-05-23 14:48:59 -0500
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mLocpair Load (0.2ms)[0m  [1mSELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered locpairs/show.html.erb within layouts/application (357.4ms)
+Completed 500 Internal Server Error in 383ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (undefined method `keys' for #<Array:0x00000004ef59a8>):
+    3: 	<%= @locpair.location1 %>
+    4: 	to	
+    5: 	<%= @locpair.location2 %>
+    6:  	: ______ <%= @locpair.keys %>
+    7: </p>
+  app/models/locpair.rb:8:in `keys'
+  app/views/locpairs/show.html.erb:6:in `_app_views_locpairs_show_html_erb__1109897369310546172_42317460'
+
+
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.2ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (28.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (63.8ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.5ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.5ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (61.7ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.9ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.1ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (111.6ms)
+
+
+Started GET "/locpairs/6" for 127.0.0.1 at 2016-05-23 14:51:00 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mLocpair Load (0.2ms)[0m  SELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered locpairs/show.html.erb within layouts/application (356.9ms)
+Completed 200 OK in 787ms (Views: 727.2ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-23 14:51:01 -0500
+
+
+Started GET "/assets/locpairs.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-23 14:51:01 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-05-23 14:51:01 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-05-23 14:51:01 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-05-23 14:51:01 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-05-23 14:51:01 -0500
+
+
+Started GET "/assets/locpairs.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-05-23 14:51:01 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-05-23 14:51:01 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-05-23 14:51:01 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-23 14:51:08 -0500
+Processing by LocpairsController#new as HTML
+  Rendered locpairs/new.html.erb within layouts/application (24.1ms)
+Completed 200 OK in 53ms (Views: 52.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/locpairs" for 127.0.0.1 at 2016-05-23 14:51:12 -0500
+Processing by LocpairsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NXSB1Dt6eyNP9jLi7HWI5o81Fx7EEnRHKDEaqcAfA38hg+WBenhYNxnabTGeeezzWWptwiYvER9J/oCVi5twPg==", "locpair"=>{"location1"=>"j", "location2"=>"z"}, "commit"=>"Submit"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "locpairs" ("location1", "location2", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["location1", "j"], ["location2", "z"], ["created_at", "2016-05-23 19:51:13.025370"], ["updated_at", "2016-05-23 19:51:13.025370"]]
+  [1m[36m (11.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/locpairs/7
+Completed 302 Found in 29ms (ActiveRecord: 11.6ms)
+
+
+Started GET "/locpairs/7" for 127.0.0.1 at 2016-05-23 14:51:13 -0500
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mLocpair Load (0.1ms)[0m  SELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered locpairs/show.html.erb within layouts/application (217.6ms)
+Completed 200 OK in 313ms (Views: 306.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-23 14:56:23 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#new as HTML
+  Rendered locpairs/new.html.erb within layouts/application (14.9ms)
+Completed 200 OK in 564ms (Views: 549.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/locpairs" for 127.0.0.1 at 2016-05-23 14:56:27 -0500
+Processing by LocpairsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fDPT0kgzB0Fd+1yZxxc3D6I2GfAb0LI8PkvT7mZyEAZoxLeHCTEkVQvXA0q1G1MadGljLPnt12RfhEnSLfZjRw==", "locpair"=>{"location1"=>"h", "location2"=>"a"}, "commit"=>"Submit"}
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/xavier/Desktop/xavier-test/xavier-test/app/models/locpair.rb:10: syntax error, unexpected keyword_end, expecting ']'):
+  app/models/locpair.rb:10: syntax error, unexpected keyword_end, expecting ']'
+  app/controllers/locpairs_controller.rb:11:in `create'
+
+
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.6ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (67.7ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (15.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (69.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-23 14:57:12 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#new as HTML
+  Rendered locpairs/new.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 454ms (Views: 434.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/locpairs" for 127.0.0.1 at 2016-05-23 14:57:15 -0500
+Processing by LocpairsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zohIOVkujRjauXfP5gkEsmRlL3KDHoMR6k3XErSxhaTafyxsGCyuDIyVKByUBWCnsjpVrmEj5kmLgk0u/zX25Q==", "locpair"=>{"location1"=>"z", "location2"=>"zz"}, "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "locpairs" ("location1", "location2", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["location1", "z"], ["location2", "zz"], ["created_at", "2016-05-23 19:57:15.642894"], ["updated_at", "2016-05-23 19:57:15.642894"]]
+  [1m[35m (11.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/locpairs/8
+Completed 302 Found in 131ms (ActiveRecord: 13.6ms)
+
+
+Started GET "/locpairs/8" for 127.0.0.1 at 2016-05-23 14:57:15 -0500
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mLocpair Load (0.4ms)[0m  [1mSELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1[0m  [["id", 8]]
+  Rendered locpairs/show.html.erb within layouts/application (406.6ms)
+Completed 500 Internal Server Error in 432ms (ActiveRecord: 0.4ms)
+
+ActionView::Template::Error (no implicit conversion of String into Integer):
+    3: 	<%= @locpair.location1 %>
+    4: 	to	
+    5: 	<%= @locpair.location2 %>
+    6:  	: ______ <%= @locpair.keys %>
+    7: </p>
+  app/models/locpair.rb:8:in `[]'
+  app/models/locpair.rb:8:in `keys'
+  app/views/locpairs/show.html.erb:6:in `_app_views_locpairs_show_html_erb___463430813722852148_39132740'
+
+
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (16.5ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (50.8ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (32.2ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (81.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-23 15:00:34 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#new as HTML
+  Rendered locpairs/new.html.erb within layouts/application (19.0ms)
+Completed 200 OK in 505ms (Views: 489.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/locpairs" for 127.0.0.1 at 2016-05-23 15:00:38 -0500
+Processing by LocpairsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0K0++FIhLIQm0Km9i7kxc0KKxQrZxoBXbskukKpZCCbEWlqtEyMPkHD89m75tVVmlNW/1jv75Q8PBrSs4d17Zw==", "locpair"=>{"location1"=>"g", "location2"=>"a"}, "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "locpairs" ("location1", "location2", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["location1", "g"], ["location2", "a"], ["created_at", "2016-05-23 20:00:38.254318"], ["updated_at", "2016-05-23 20:00:38.254318"]]
+  [1m[35m (51.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/locpairs/9
+Completed 302 Found in 98ms (ActiveRecord: 55.1ms)
+
+
+Started GET "/locpairs/9" for 127.0.0.1 at 2016-05-23 15:00:38 -0500
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mLocpair Load (1.9ms)[0m  [1mSELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1[0m  [["id", 9]]
+  Rendered locpairs/show.html.erb within layouts/application (335.6ms)
+Completed 500 Internal Server Error in 349ms (ActiveRecord: 1.9ms)
+
+ActionView::Template::Error (no implicit conversion of String into Integer):
+    3: 	<%= @locpair.location1 %>
+    4: 	to	
+    5: 	<%= @locpair.location2 %>
+    6:  	: ______ <%= @locpair.keys %>
+    7: </p>
+  app/models/locpair.rb:8:in `[]'
+  app/models/locpair.rb:8:in `keys'
+  app/views/locpairs/show.html.erb:6:in `_app_views_locpairs_show_html_erb___1558396333552166102_48133660'
+
+
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (15.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (63.6ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (98.2ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.2ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (156.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-23 15:02:36 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#new as HTML
+  Rendered locpairs/new.html.erb within layouts/application (29.0ms)
+Completed 200 OK in 493ms (Views: 472.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/locpairs" for 127.0.0.1 at 2016-05-23 15:02:40 -0500
+Processing by LocpairsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"v9zuPvPEmAw9IjVfMDloxVEpt39dCRB1jVTyaNSp/vGrK4prssa7GGsOaoxCNQzQh3bNo780dS3sm2hUny2NsA==", "locpair"=>{"location1"=>"gv", "location2"=>"a"}, "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (2.8ms)[0m  [1mINSERT INTO "locpairs" ("location1", "location2", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["location1", "gv"], ["location2", "a"], ["created_at", "2016-05-23 20:02:40.431836"], ["updated_at", "2016-05-23 20:02:40.431836"]]
+  [1m[35m (10.2ms)[0m  commit transaction
+Redirected to http://localhost:3000/locpairs/10
+Completed 302 Found in 54ms (ActiveRecord: 13.4ms)
+
+
+Started GET "/locpairs/10" for 127.0.0.1 at 2016-05-23 15:02:40 -0500
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mLocpair Load (0.3ms)[0m  [1mSELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1[0m  [["id", 10]]
+  Rendered locpairs/show.html.erb within layouts/application (387.6ms)
+Completed 500 Internal Server Error in 417ms (ActiveRecord: 0.3ms)
+
+ActionView::Template::Error (no implicit conversion of String into Integer):
+    3: 	<%= @locpair.location1 %>
+    4: 	to	
+    5: 	<%= @locpair.location2 %>
+    6:  	: ______ <%= @locpair.keys %>
+    7: </p>
+  app/models/locpair.rb:8:in `[]'
+  app/models/locpair.rb:8:in `keys'
+  app/views/locpairs/show.html.erb:6:in `_app_views_locpairs_show_html_erb___36279224239873982_32358280'
+
+
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.7ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.1ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (34.5ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (76.1ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (112.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-23 15:03:26 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (2.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#new as HTML
+  Rendered locpairs/new.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 406ms (Views: 384.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/locpairs" for 127.0.0.1 at 2016-05-23 15:03:30 -0500
+Processing by LocpairsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"R6fP+rF1kHySmirO/Xf5Dy2CzrZF66fhcuy8+YvP+ulTUKuv8HezaMS2dR2Pe50a+920aqfWwrkTIybFwEuJqA==", "locpair"=>{"location1"=>"j", "location2"=>"jj"}, "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "locpairs" ("location1", "location2", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["location1", "j"], ["location2", "jj"], ["created_at", "2016-05-23 20:03:30.663709"], ["updated_at", "2016-05-23 20:03:30.663709"]]
+  [1m[35m (14.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/locpairs/11
+Completed 302 Found in 85ms (ActiveRecord: 16.7ms)
+
+
+Started GET "/locpairs/11" for 127.0.0.1 at 2016-05-23 15:03:30 -0500
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mLocpair Load (0.2ms)[0m  [1mSELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1[0m  [["id", 11]]
+  Rendered locpairs/show.html.erb within layouts/application (383.5ms)
+Completed 200 OK in 432ms (Views: 417.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-23 15:05:36 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#new as HTML
+  Rendered locpairs/new.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 442ms (Views: 428.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/locpairs" for 127.0.0.1 at 2016-05-23 15:05:39 -0500
+Processing by LocpairsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FZuFBQKjU06FclEgxAmYN+s1Anv+wrtmLbNKuy1o/YQBbOFQQ6FwWtNeDvO2BfwiPWp4pxz/3j5MfNCHZuyOxQ==", "locpair"=>{"location1"=>"gawg", "location2"=>"awege"}, "commit"=>"Submit"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (5.3ms)[0m  [1mINSERT INTO "locpairs" ("location1", "location2", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["location1", "gawg"], ["location2", "awege"], ["created_at", "2016-05-23 20:05:39.663355"], ["updated_at", "2016-05-23 20:05:39.663355"]]
+  [1m[35m (75.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/locpairs/12
+Completed 302 Found in 118ms (ActiveRecord: 83.6ms)
+
+
+Started GET "/locpairs/12" for 127.0.0.1 at 2016-05-23 15:05:39 -0500
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mLocpair Load (5.6ms)[0m  [1mSELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1[0m  [["id", 12]]
+  Rendered locpairs/show.html.erb within layouts/application (296.7ms)
+Completed 500 Internal Server Error in 315ms (ActiveRecord: 5.6ms)
+
+ActionView::Template::Error (no implicit conversion of String into Integer):
+    3: 	<%= @locpair.location1 %>
+    4: 	to	
+    5: 	<%= @locpair.location2 %>
+    6:  	: ______ <%= @locpair.keys %>
+    7: </p>
+  app/models/locpair.rb:8:in `[]'
+  app/models/locpair.rb:8:in `keys'
+  app/views/locpairs/show.html.erb:6:in `_app_views_locpairs_show_html_erb___1518547336321695596_45444440'
+
+
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.8ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.6ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (102.9ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (4.6ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (70.8ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (124.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-23 15:06:28 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#new as HTML
+  Rendered locpairs/new.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 427ms (Views: 414.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/locpairs" for 127.0.0.1 at 2016-05-23 15:06:32 -0500
+Processing by LocpairsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xlMMzrC0AiY5TZjHdaEaXRFlz/45TRbNUc2+mrsnhnzSpGib8bYhMm9hxxQHrX5Ixzq1Ittwc5UwAiSm8KP1PQ==", "locpair"=>{"location1"=>"gawege", "location2"=>"awefew"}, "commit"=>"Submit"}
+  [1m[35m (1.2ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "locpairs" ("location1", "location2", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["location1", "gawege"], ["location2", "awefew"], ["created_at", "2016-05-23 20:06:32.275963"], ["updated_at", "2016-05-23 20:06:32.275963"]]
+  [1m[35m (7.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/locpairs/13
+Completed 302 Found in 52ms (ActiveRecord: 8.9ms)
+
+
+Started GET "/locpairs/13" for 127.0.0.1 at 2016-05-23 15:06:32 -0500
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mLocpair Load (0.2ms)[0m  [1mSELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1[0m  [["id", 13]]
+  Rendered locpairs/show.html.erb within layouts/application (482.5ms)
+Completed 200 OK in 537ms (Views: 516.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-23 15:07:46 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#new as HTML
+  Rendered locpairs/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 479ms (Views: 462.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/locpairs" for 127.0.0.1 at 2016-05-23 15:07:51 -0500
+Processing by LocpairsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ht3YrthqJcfCgCtsMaC+YKfL6Qv5EImPCUHFHX/SNkSSKrz7mWgG05SsdL9DrNp1cZST1xst7Ndojl8hNFZFBQ==", "locpair"=>{"location1"=>"agwgaweg", "location2"=>"awegwaeg"}, "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "locpairs" ("location1", "location2", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["location1", "agwgaweg"], ["location2", "awegwaeg"], ["created_at", "2016-05-23 20:07:51.565313"], ["updated_at", "2016-05-23 20:07:51.565313"]]
+  [1m[35m (37.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/locpairs/14
+Completed 302 Found in 80ms (ActiveRecord: 44.6ms)
+
+
+Started GET "/locpairs/14" for 127.0.0.1 at 2016-05-23 15:07:51 -0500
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mLocpair Load (0.2ms)[0m  [1mSELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1[0m  [["id", 14]]
+  Rendered locpairs/show.html.erb within layouts/application (278.4ms)
+Completed 200 OK in 358ms (Views: 306.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-23 15:08:38 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#new as HTML
+  Rendered locpairs/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 423ms (Views: 407.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/locpairs" for 127.0.0.1 at 2016-05-23 15:08:42 -0500
+Processing by LocpairsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"u5adDagTrWTpktYsPTDML9IxMq1+nsxZxpzgDJipD9uvYflY6RGOcL++if9PPKg6BG5IcZyjqQGnU3ow0y18mg==", "locpair"=>{"location1"=>"fffff", "location2"=>"fffffff"}, "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (4.3ms)[0m  [1mINSERT INTO "locpairs" ("location1", "location2", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["location1", "fffff"], ["location2", "fffffff"], ["created_at", "2016-05-23 20:08:42.062355"], ["updated_at", "2016-05-23 20:08:42.062355"]]
+  [1m[35m (74.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/locpairs/15
+Completed 302 Found in 118ms (ActiveRecord: 83.5ms)
+
+
+Started GET "/locpairs/15" for 127.0.0.1 at 2016-05-23 15:08:42 -0500
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"15"}
+  [1m[36mLocpair Load (3.4ms)[0m  [1mSELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1[0m  [["id", 15]]
+  Rendered locpairs/show.html.erb within layouts/application (268.0ms)
+Completed 200 OK in 326ms (Views: 307.4ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-23 15:09:54 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#new as HTML
+  Rendered locpairs/new.html.erb within layouts/application (19.2ms)
+Completed 200 OK in 455ms (Views: 440.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/locpairs" for 127.0.0.1 at 2016-05-23 15:09:58 -0500
+Processing by LocpairsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Hp0qgmyFSX+DS5NReuXrcBjZL2IsY+YeafCWzX9TcGIKak7XLYdqa9VnzIII6Y9lzoZVvs5eg0YIPwzxNNcDIw==", "locpair"=>{"location1"=>"hserrhserh", "location2"=>"earhawrhaerh"}, "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "locpairs" ("location1", "location2", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["location1", "hserrhserh"], ["location2", "earhawrhaerh"], ["created_at", "2016-05-23 20:09:58.514486"], ["updated_at", "2016-05-23 20:09:58.514486"]]
+  [1m[35m (42.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/locpairs/16
+Completed 302 Found in 105ms (ActiveRecord: 45.3ms)
+
+
+Started GET "/locpairs/16" for 127.0.0.1 at 2016-05-23 15:09:58 -0500
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"16"}
+  [1m[36mLocpair Load (0.2ms)[0m  [1mSELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1[0m  [["id", 16]]
+  Rendered locpairs/show.html.erb within layouts/application (299.8ms)
+Completed 200 OK in 379ms (Views: 327.7ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/locpairs" for 127.0.0.1 at 2016-05-23 15:09:58 -0500
+Processing by LocpairsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Hp0qgmyFSX+DS5NReuXrcBjZL2IsY+YeafCWzX9TcGIKak7XLYdqa9VnzIII6Y9lzoZVvs5eg0YIPwzxNNcDIw==", "locpair"=>{"location1"=>"hserrhserh", "location2"=>"earhawrhaerh"}, "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "locpairs" ("location1", "location2", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["location1", "hserrhserh"], ["location2", "earhawrhaerh"], ["created_at", "2016-05-23 20:09:58.970447"], ["updated_at", "2016-05-23 20:09:58.970447"]]
+  [1m[35m (4.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/locpairs/17
+Completed 302 Found in 17ms (ActiveRecord: 4.8ms)
+
+
+Started GET "/locpairs/17" for 127.0.0.1 at 2016-05-23 15:09:58 -0500
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[36mLocpair Load (0.1ms)[0m  [1mSELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1[0m  [["id", 17]]
+  Rendered locpairs/show.html.erb within layouts/application (268.8ms)
+Completed 200 OK in 332ms (Views: 331.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-23 15:13:18 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#new as HTML
+  Rendered locpairs/new.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 401ms (Views: 382.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/locpairs" for 127.0.0.1 at 2016-05-23 15:13:22 -0500
+Processing by LocpairsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BqDvWm+LIQIAHp1DjQC8u65tVjjAPwRQgfk8W5981MISV4sPLokCFlYywpD/DNiueDIs5CICYQjgNqZn1Pingw==", "locpair"=>{"location1"=>"awfwa", "location2"=>"afwewae"}, "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "locpairs" ("location1", "location2", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["location1", "awfwa"], ["location2", "afwewae"], ["created_at", "2016-05-23 20:13:22.622443"], ["updated_at", "2016-05-23 20:13:22.622443"]]
+  [1m[35m (63.9ms)[0m  commit transaction
+Redirected to http://localhost:3000/locpairs/18
+Completed 302 Found in 103ms (ActiveRecord: 64.6ms)
+
+
+Started GET "/locpairs/18" for 127.0.0.1 at 2016-05-23 15:13:22 -0500
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"18"}
+  [1m[36mLocpair Load (0.2ms)[0m  [1mSELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1[0m  [["id", 18]]
+  Rendered locpairs/show.html.erb within layouts/application (3.5ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (bad URI(is not URI?): https://maps.googleapis.com/maps/api/directions/json?origin=#{ origin }&destination=#{ destination }&key=AIzaSyCyGxlpi-xFCFcfA7H-b339zki4DbN6ocM):
+    3: 	<%= @locpair.location1 %>
+    4: 	to	
+    5: 	<%= @locpair.location2 %>
+    6:  	: ______ <%= @locpair.keys %>
+    7: </p>
+  app/models/locpair.rb:7:in `keys'
+  app/views/locpairs/show.html.erb:6:in `_app_views_locpairs_show_html_erb___3010601838075202292_34936760'
+
+
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.9ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (64.6ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (6.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (40.2ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (88.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-23 15:22:15 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (3.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#new as HTML
+  Rendered locpairs/new.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 470ms (Views: 412.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/locpairs" for 127.0.0.1 at 2016-05-23 15:22:19 -0500
+Processing by LocpairsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"E2EeKMx5zJBajDlF3FjbJZ88ObCbfPGF3zy+YvpD+CoHlnp9jXvvhAygZpauVL8wSWNDbHlBlN2+8yResceLaw==", "locpair"=>{"location1"=>"d4udr", "location2"=>"terhter"}, "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "locpairs" ("location1", "location2", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["location1", "d4udr"], ["location2", "terhter"], ["created_at", "2016-05-23 20:22:19.757172"], ["updated_at", "2016-05-23 20:22:19.757172"]]
+  [1m[35m (5.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/locpairs/19
+Completed 302 Found in 59ms (ActiveRecord: 6.5ms)
+
+
+Started GET "/locpairs/19" for 127.0.0.1 at 2016-05-23 15:22:19 -0500
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mLocpair Load (0.2ms)[0m  [1mSELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1[0m  [["id", 19]]
+  Rendered locpairs/show.html.erb within layouts/application (7.7ms)
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (wrong number of arguments (given 0, expected 1+)):
+    3: 	<%= @locpair.location1 %>
+    4: 	to	
+    5: 	<%= @locpair.location2 %>
+    6:  	: ______ <%= @locpair.keys %>
+    7: </p>
+  app/models/locpair.rb:10:in `keys'
+  app/views/locpairs/show.html.erb:6:in `_app_views_locpairs_show_html_erb__4608723501423240932_34365500'
+
+
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (64.8ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (4.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (31.9ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (69.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-23 15:22:50 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#new as HTML
+  Rendered locpairs/new.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 420ms (Views: 411.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/locpairs" for 127.0.0.1 at 2016-05-23 15:22:53 -0500
+Processing by LocpairsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"76oNSg+tFxcT4eV8DMYTKpd0LPF99IBagz4GW+ihR4T7XWkfTq80A0XNuq9+ync/QStWLZ/J5QLi8ZxnoyU0xQ==", "locpair"=>{"location1"=>"23", "location2"=>"432"}, "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "locpairs" ("location1", "location2", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["location1", "23"], ["location2", "432"], ["created_at", "2016-05-23 20:22:53.768381"], ["updated_at", "2016-05-23 20:22:53.768381"]]
+  [1m[35m (12.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/locpairs/20
+Completed 302 Found in 55ms (ActiveRecord: 13.2ms)
+
+
+Started GET "/locpairs/20" for 127.0.0.1 at 2016-05-23 15:22:53 -0500
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"20"}
+  [1m[36mLocpair Load (0.2ms)[0m  [1mSELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1[0m  [["id", 20]]
+  Rendered locpairs/show.html.erb within layouts/application (321.5ms)
+Completed 500 Internal Server Error in 339ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (400 Bad Request):
+    3: 	<%= @locpair.location1 %>
+    4: 	to	
+    5: 	<%= @locpair.location2 %>
+    6:  	: ______ <%= @locpair.keys %>
+    7: </p>
+  app/models/locpair.rb:10:in `keys'
+  app/views/locpairs/show.html.erb:6:in `_app_views_locpairs_show_html_erb__690073385687649406_45129480'
+
+
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (47.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (13.8ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (103.2ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (34.8ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (7.0ms)
+  Rendered /home/xavier/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (102.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-23 15:24:07 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#new as HTML
+  Rendered locpairs/new.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 482ms (Views: 467.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/locpairs" for 127.0.0.1 at 2016-05-23 15:24:11 -0500
+Processing by LocpairsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GK4eqMgznuanWLeUvUgSf+vL5nwsicCevM0rr3Ur8ToMWXr9iTG98vF06EfPRHZqPZScoM60pcbdArGTPq+Cew==", "locpair"=>{"location1"=>"7", "location2"=>"9"}, "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "locpairs" ("location1", "location2", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["location1", "7"], ["location2", "9"], ["created_at", "2016-05-23 20:24:11.954997"], ["updated_at", "2016-05-23 20:24:11.954997"]]
+  [1m[35m (21.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/locpairs/21
+Completed 302 Found in 64ms (ActiveRecord: 21.9ms)
+
+
+Started GET "/locpairs/21" for 127.0.0.1 at 2016-05-23 15:24:11 -0500
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[36mLocpair Load (5.3ms)[0m  [1mSELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1[0m  [["id", 21]]
+  Rendered locpairs/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 48ms (Views: 32.2ms | ActiveRecord: 5.3ms)
+
+
+Started GET "/locpairs/21" for 127.0.0.1 at 2016-05-23 15:26:11 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[35mLocpair Load (0.2ms)[0m  SELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1  [["id", 21]]
+  Rendered locpairs/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 436ms (Views: 379.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-23 15:26:12 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-05-23 15:26:12 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-05-23 15:26:12 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-05-23 15:26:12 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-05-23 15:26:12 -0500
+
+
+Started GET "/assets/locpairs.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-23 15:26:12 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-05-23 15:26:12 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-05-23 15:26:12 -0500
+
+
+Started GET "/assets/locpairs.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-05-23 15:26:12 -0500
+
+
+Started GET "/locpairs/21" for 127.0.0.1 at 2016-05-23 15:26:54 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[35mLocpair Load (0.1ms)[0m  SELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1  [["id", 21]]
+  Rendered locpairs/show.html.erb within layouts/application (293.9ms)
+Completed 200 OK in 780ms (Views: 725.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-23 15:26:55 -0500
+
+
+Started GET "/assets/locpairs.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-23 15:26:55 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-05-23 15:26:55 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-05-23 15:26:55 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-05-23 15:26:55 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-05-23 15:26:55 -0500
+
+
+Started GET "/assets/locpairs.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-05-23 15:26:55 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-05-23 15:26:55 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-05-23 15:26:55 -0500
+
+
+Started GET "/locpairs/21" for 127.0.0.1 at 2016-05-23 15:28:18 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[35mLocpair Load (0.2ms)[0m  SELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1  [["id", 21]]
+  Rendered locpairs/show.html.erb within layouts/application (370.2ms)
+Completed 200 OK in 902ms (Views: 806.5ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-23 15:28:19 -0500
+
+
+Started GET "/assets/locpairs.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-23 15:28:19 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-05-23 15:28:19 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-05-23 15:28:19 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-05-23 15:28:19 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-05-23 15:28:19 -0500
+
+
+Started GET "/assets/locpairs.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-05-23 15:28:19 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-05-23 15:28:19 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-05-23 15:28:19 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-23 15:34:25 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocpairsController#new as HTML
+  Rendered locpairs/new.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 459ms (Views: 447.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/locpairs" for 127.0.0.1 at 2016-05-23 15:34:31 -0500
+Processing by LocpairsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HrV8YNqCpkUrQaCihYhWcOiURgnNm3UljtNIjlygJrEKQhg1m4CFUX1t/3H3hDJlPss81S+mEH3vHNKyFyRV8A==", "locpair"=>{"location1"=>"Toronto", "location2"=>"Montreal"}, "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "locpairs" ("location1", "location2", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["location1", "Toronto"], ["location2", "Montreal"], ["created_at", "2016-05-23 20:34:31.645181"], ["updated_at", "2016-05-23 20:34:31.645181"]]
+  [1m[35m (15.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/locpairs/22
+Completed 302 Found in 56ms (ActiveRecord: 23.5ms)
+
+
+Started GET "/locpairs/22" for 127.0.0.1 at 2016-05-23 15:34:31 -0500
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"22"}
+  [1m[36mLocpair Load (0.2ms)[0m  [1mSELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1[0m  [["id", 22]]
+  Rendered locpairs/show.html.erb within layouts/application (291.4ms)
+Completed 200 OK in 341ms (Views: 326.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-23 15:34:43 -0500
+Processing by LocpairsController#new as HTML
+  Rendered locpairs/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 99ms (Views: 98.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/locpairs" for 127.0.0.1 at 2016-05-23 15:35:04 -0500
+Processing by LocpairsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PjW62dV3wsu2e/mB+72wMHHQwJBhAhqkJr/uR3wy64cqwt6MlHXh3+BXplKJsdQlp4+6TIM/f/xHcHR7N7aYxg==", "locpair"=>{"location1"=>"Dallas", "location2"=>"Houston"}, "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "locpairs" ("location1", "location2", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["location1", "Dallas"], ["location2", "Houston"], ["created_at", "2016-05-23 20:35:04.438405"], ["updated_at", "2016-05-23 20:35:04.438405"]]
+  [1m[35m (62.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/locpairs/23
+Completed 302 Found in 66ms (ActiveRecord: 63.0ms)
+
+
+Started GET "/locpairs/23" for 127.0.0.1 at 2016-05-23 15:35:04 -0500
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"23"}
+  [1m[36mLocpair Load (0.1ms)[0m  [1mSELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1[0m  [["id", 23]]
+  Rendered locpairs/show.html.erb within layouts/application (312.8ms)
+Completed 200 OK in 407ms (Views: 388.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-23 15:35:51 -0500
+Processing by LocpairsController#new as HTML
+  Rendered locpairs/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 86ms (Views: 85.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/locpairs" for 127.0.0.1 at 2016-05-23 15:35:58 -0500
+Processing by LocpairsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OCrD/ps9T9otfTPh5mg69L7r+il2MAJof+qx/SlWLdEs3aer2j9szntRbDKUZF7haLSA9ZQNZzAeJSvBYtJekA==", "locpair"=>{"location1"=>"LGA", "location2"=>"DFW"}, "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "locpairs" ("location1", "location2", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["location1", "LGA"], ["location2", "DFW"], ["created_at", "2016-05-23 20:35:58.339428"], ["updated_at", "2016-05-23 20:35:58.339428"]]
+  [1m[35m (64.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/locpairs/24
+Completed 302 Found in 70ms (ActiveRecord: 65.1ms)
+
+
+Started GET "/locpairs/24" for 127.0.0.1 at 2016-05-23 15:35:58 -0500
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"24"}
+  [1m[36mLocpair Load (0.1ms)[0m  [1mSELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1[0m  [["id", 24]]
+  Rendered locpairs/show.html.erb within layouts/application (540.4ms)
+Completed 200 OK in 565ms (Views: 563.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-23 15:36:29 -0500
+Processing by LocpairsController#new as HTML
+  Rendered locpairs/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 57ms (Views: 56.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/locpairs" for 127.0.0.1 at 2016-05-23 15:36:51 -0500
+Processing by LocpairsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wCoSd6zmImMR7dXWli73mxE30Zq/JS5iEZmVWRLcuaXU3XYi7eQBd0fBigXkIpOOx2irRl0YSzpwVg9lWVjK5A==", "locpair"=>{"location1"=>"Lincoln, Nebraska", "location2"=>"Italy, Texas"}, "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "locpairs" ("location1", "location2", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["location1", "Lincoln, Nebraska"], ["location2", "Italy, Texas"], ["created_at", "2016-05-23 20:36:51.826399"], ["updated_at", "2016-05-23 20:36:51.826399"]]
+  [1m[35m (408.9ms)[0m  commit transaction
+Redirected to http://localhost:3000/locpairs/25
+Completed 302 Found in 415ms (ActiveRecord: 409.1ms)
+
+
+Started GET "/locpairs/25" for 127.0.0.1 at 2016-05-23 15:36:52 -0500
+Processing by LocpairsController#show as HTML
+  Parameters: {"id"=>"25"}
+  [1m[36mLocpair Load (0.1ms)[0m  [1mSELECT  "locpairs".* FROM "locpairs" WHERE "locpairs"."id" = ? LIMIT 1[0m  [["id", 25]]
+  Rendered locpairs/show.html.erb within layouts/application (351.8ms)
+Completed 200 OK in 375ms (Views: 374.1ms | ActiveRecord: 0.1ms)
