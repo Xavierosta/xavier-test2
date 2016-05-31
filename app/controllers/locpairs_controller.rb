@@ -12,6 +12,16 @@ class LocpairsController < ApplicationController
 
 		@locpair.save
 		redirect_to @locpair
+		puts "TEST
+		      TEST
+		      TEST
+		      TEST
+		      TEST
+		      TEST
+		      TEST
+		      TEST
+		      TEST
+		      TEST"
 	end
 
 	private
